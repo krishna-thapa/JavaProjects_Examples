@@ -158,7 +158,7 @@ public class WordGameImpl implements WordGame {
         //use of Comparable interface and override the compareTo() method to sort the object by score in des order
         @Override
         public int compareTo(LeaderBoard compareScore){
-            int compareScoreResult = (compareScore).getPlayerScore();
+            int compareScoreResult = compareScore.getPlayerScore();
             return compareScoreResult - this.getPlayerScore();
         }
     }

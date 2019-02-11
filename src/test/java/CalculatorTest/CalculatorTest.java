@@ -17,7 +17,7 @@ public class CalculatorTest {
 
     //Code is to calculate the string input equation and result in double
     private CalculatorCode calculateCode;
-    private final double delta = 0.01;
+    private static final double delta = 0.01;
 
     @Before
     public void setUp(){
